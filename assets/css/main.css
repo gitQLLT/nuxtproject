@@ -1,0 +1,14 @@
+.page-enter-active, .page-leave-active {
+  transition: all .5s,transform .3s;
+}
+.page-enter, .page-leave-active {
+  transform: translateX(100px);
+  opacity: 0;
+}
+
+.page-enter-active, .page-leave-active {
+  transition: all .5s;
+}
+.page-enter, .page-leave-active {
+  color: teal;
+}
